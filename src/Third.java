@@ -12,8 +12,9 @@ public class Third {
         for (int i = 0; i < 1000; i++) {
             str += "a";
         }
-        String str1=str.replace("a", "A");
-        System.out.println(str1);
+        // String str1=str.replace("a", "A");
+        // System.out.println(str1);
+        str.replace("a", "A");
         System.out.println("String result: "+ (System.currentTimeMillis() - start)); // разница милисекунд по окончании и на старте
 
 
